@@ -1,0 +1,152 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title{
+  background-color: #ff4c68;
+}
+.container-fluid{
+  background-color: #ff4c68;
+  padding: 3% 15% 7% 15%;
+}
+
+h1{
+  font-family: 'Montserrat, sans-serif';
+  color: white;
+  font-size: 50px;
+  line-height: 1.5;
+  font-weight: bolder;
+  padding-bottom: 20px;
+}
+ .navbar-brand {
+   font-family: "Ubuntu";
+   font-size: 30px;
+   font-weight: bold;
+ }
+
+ .navbar {
+   padding-bottom: 60px;
+ }
+
+ .nav-item{
+   padding: 0 18px;
+ }
+
+ .button-download{
+   margin: 0 20px;
+ }
+
+.title-image{
+  width: 21%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 24%;
+}
+
+#features{
+  background-color: white;
+  padding: 10% 17% 5% 17%;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 3% 5%;
+}
+
+h2{
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: "Montserrat";
+  font-weight: bolder;
+}
+p {
+  color: #8f8f8f;
+}
+.icon{
+  color: #ef8172;
+  padding-bottom: 20px;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+#testimonials{
+  background-color: #ef8172;
+
+  text-align: center;
+  margin-top: 0;
+}
+.testimonial-image{
+  border-radius: 100%;
+  width: 10%;
+  padding: 20px 0 20px 0;
+}
+.carousel-item{
+ padding: 120px 70px 70px 70px;
+  }
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 30px;
+}
+ .press-image{
+   width: 15%;
+   padding: 30px 20px 20px 20px;
+ }
+.price{
+  color: black;
+  font-size: 40px;
+  padding-bottom: 0;
+  text-align: center;
+}
+.price-line{
+  text-align: center;
+}
+#pricing{
+  padding: 80px;
+}
+.pricing-column{
+  padding: 3% 2%;
+  text-align: center;
+}
+
+#cta{
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+  color: #fff;
+}
+.last-sec{
+  padding: 30px;
+  font-family:"Montserrat-Black";
+  font-weight: bolder;
+  font-size: 45px;
+  line-height: 1.5;
+}
+
+#footer{
+  background-color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+.foot{
+padding: 0 5px 20px 5px;
+}
+@media (max-width: 995px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
